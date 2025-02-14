@@ -4,7 +4,7 @@ $("#messageState").on("change", (x) => {
     if ($("#messageState").is(":checked")) {
         $(".message").removeClass("closed").removeClass("no-anim").addClass("openNor");
         $(".heart").removeClass("closeHer").removeClass("openedHer").addClass("openHer");
-        $(".container").stop().animate({"backgroundColor": "#f48fb1"}, 2000);
+        $(".container").stop().animate({"backgroundColor": "#49d3ed"}, 2000);
         console.log("Abrindo");
 
         // Memutar musik
